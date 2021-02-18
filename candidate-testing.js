@@ -63,7 +63,7 @@ console.log(`\n${questions[1]}\nYour Answer: ${candidateAnswers[1]}\nCorrect Ans
 console.log(`\n${questions[2]}\nYour Answer: ${candidateAnswers[2]}\nCorrect Answer: ${correctAnswers[2]}\n`);
 console.log(`\n${questions[3]}\nYour Answer: ${candidateAnswers[3]}\nCorrect Answer: ${correctAnswers[3]}\n`);
 console.log(`\n${questions[4]}\nYour Answer: ${candidateAnswers[4]}\nCorrect Answer: ${correctAnswers[4]}\n`);
-console.log(`>>> Overall Grade: ${grade}% (${totalGrade}) of ${questions.length} responses correct) <<<\n>>> Status: ${status} <<<`);
+console.log(`>>> Overall Grade: ${grade}% (${totalGrade} of ${questions.length} responses correct) <<<\n>>> Status: ${status} <<<`);
   return grade;
 
 }
